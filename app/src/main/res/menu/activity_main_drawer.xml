@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dunya"
+            android:icon="@drawable/dunya"
+            android:menuCategory="secondary"
+            android:title="@string/dunya_news"/>
+        <item
+            android:id="@+id/nav_geo"
+            android:icon="@drawable/geo"
+            android:menuCategory="secondary"
+            android:title="@string/geo_news" />
+        <item
+            android:id="@+id/nav_ary"
+            android:icon="@drawable/news"
+            android:menuCategory="secondary"
+            android:title="@string/ary_news"/>
+        <item
+            android:id="@+id/nav_bbc"
+            android:icon="@drawable/news"
+            android:menuCategory="secondary"
+            android:title="@string/bbc_news" />
+        <item
+            android:id="@+id/nav_cnn"
+            android:icon="@drawable/cnn"
+            android:menuCategory="secondary"
+            android:title="@string/cnn_news"/>
+    </group>
+
+    <item
+        android:title="UpComing"
+        android:menuCategory="secondary">
+
+        <menu>
+            <item
+                android:id="@+id/nav_sky"
+                android:menuCategory="secondary"
+                android:title="Sky news"/>
+            <item
+                android:id="@+id/nav_Fox"
+                android:menuCategory="secondary"
+                android:title="Fox news"/>
+        </menu>
+    </item>
+</menu>
